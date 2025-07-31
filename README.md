@@ -1,6 +1,12 @@
 # The CUBE
 A VR application for building intuition for the electromagnetic fields of point charges. This is the experimental development version of the application described in "The CUBE Virtual Reality Immersion" by Laura Estridge and Joel Franklin. To find the version described in the article, see [this repository](https://github.com/ReedPhysicsVR/TheCUBE).
 
+New and partially finished features include:
+- Spherical screen
+- Contour lines
+
+Also included is the first iteration of the CUBE (listed as oCUBE in the level menu) as described in "The CUBE: Using Virtual Reality to Visualize Electromagnetic Fields in Real-Time," a Bachelor's thesis completed at Reed College by Laura Estridge. This version uses texture map editing rather than shaders, which is terrible performance-wise, but may be a more accessible starting point for new developers since an understanding of graphics programming is not necessary.
+
 ## To open the project files in Unity:
 Download and install the [Unity Hub](https://unity.com/download). After launching the Hub, install the Unity editor version 2022.3.46f1, and make sure to include Android as a build platform. Download a .zip file of this repository ("Code" dropdown → "Download ZIP") and extract the files. In the "Projects" tab of the Hub, click the "Add" dropdown and select "Add project from disk". Select the folder containing the extracted project files, which is the TheCUBE folder within the TheCUBE repository directory. The required packages should download and the project should open. 
 
